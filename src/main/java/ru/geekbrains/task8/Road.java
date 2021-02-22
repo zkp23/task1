@@ -15,7 +15,7 @@ public class Road extends Barrier {
 
     @Override
     protected boolean moving(Actions actions) {
-        System.out.println("Дорога" + super.getName() + " длина: " + this.length);
+        System.out.println("Дорога " + super.getName() + " длина: " + this.length);
 
         actions.run();
 

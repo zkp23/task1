@@ -13,12 +13,12 @@ public class Human implements Actions{
 
     @Override
     public void run() {
-        System.out.println("Human " + this.name + " is running " + this.getRunDistance());
+        System.out.println("Человек " + this.name + " бежит " + this.getRunDistance());
     }
 
     @Override
     public void jump() {
-        System.out.println("Human " + this.name + " is jumping " + this.getJumpHeight());
+        System.out.println("Человек " + this.name + " прыгает " + this.getJumpHeight());
     }
 
     @Override

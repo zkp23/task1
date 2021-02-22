@@ -16,7 +16,7 @@ public class Wall extends Barrier {
 
     @Override
     protected boolean moving(Actions actions) {
-        System.out.println("Стена " + super.getName() + "высота: " + this.heigth);
+        System.out.println("Стена " + super.getName() + " высота: " + this.heigth);
 
         actions.jump();
 

@@ -13,12 +13,12 @@ public class Robot implements Actions{
 
     @Override
     public void run() {
-        System.out.println("Robot " + this.name + " is running " + this.getRunDistance());
+        System.out.println("Робот " + this.name + " бежит" + this.getRunDistance());
     }
 
     @Override
     public void jump() {
-        System.out.println("Robot " + this.name + " is jumping " + this.getJumpHeight());
+        System.out.println("Робот " + this.name + " прыгает " + this.getJumpHeight());
     }
 
     @Override

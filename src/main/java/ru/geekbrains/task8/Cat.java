@@ -13,12 +13,12 @@ public class Cat implements Actions{
 
     @Override
     public void run() {
-        System.out.println("Cat " + this.name + " is running " + this.getRunDistance());
+        System.out.println("Кот  " + this.name + " бежит " + this.getRunDistance());
     }
 
     @Override
     public void jump() {
-        System.out.println("Cat " + this.name + " is jumping " + this.getJumpHeight());
+        System.out.println("Кот  " + this.name + " прыгает " + this.getJumpHeight());
     }
 
     @Override
